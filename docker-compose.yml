@@ -35,3 +35,5 @@ services:
       NODE_ENV: production
     ports:
       - 42001:4200
+    depends_on:
+      - dj
